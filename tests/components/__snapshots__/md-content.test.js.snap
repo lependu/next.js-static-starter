@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Components | md-content matches snapshot 1`] = `
+<div>
+  <h1>
+    Alpha
+  </h1>
+</div>
+`;

@@ -1,0 +1,35 @@
+{
+  "env": {
+    "development": {
+      "presets": ["next/babel"],
+      "plugins": [
+        ["lodash", { "id": ["lodash", "recompose"] }]
+      ]
+    },
+    "production": {
+      "presets": ["next/babel"],
+      "plugins": [
+        ["lodash", { "id": ["lodash", "recompose"] }]
+      ]
+    },
+    "test": {
+      "presets": [["next/babel", { "preset-env": { "modules": "commonjs" } }]],
+      "plugins": [
+      ]
+    }
+  },
+  "plugins": [
+    ["module-resolver", {
+      "root": ["."],
+      "alias": {
+        "components": "./components",
+        "containers": "./containers",
+        "contents": "./contents",
+        "pages": "./pages",
+        "styles": "./styles",
+        "tests": "./tests",
+        "utils": "./utils"
+      }
+    }]
+  ]
+}

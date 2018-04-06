@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pages | index matches snapshot 1`] = `
+<div
+  id="site-layout"
+>
+  <nav
+    id="site-navigation"
+  >
+    <ul>
+      <li>
+        <a
+          href="/"
+          onClick={[Function]}
+        >
+          index
+        </a>
+      </li>
+      <li>
+        <a
+          href="/other"
+          onClick={[Function]}
+        >
+          other
+        </a>
+      </li>
+    </ul>
+  </nav>
+  <div>
+    <h1>
+      Index page
+    </h1>
+    <p>
+       
+    </p>
+    <hr />
+    <p>
+       
+    </p>
+    <p>
+      This is the index page content.
+    </p>
+  </div>
+</div>
+`;
