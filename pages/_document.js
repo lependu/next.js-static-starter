@@ -16,7 +16,7 @@ export default class CostumDocument extends Document {
           <meta name='viewport'
             content='initial-scale=1.0, width=device-width'
           />
-          <style dangerouslySetInnerHTML={{__html: cssReset}} />
+          <style dangerouslySetInnerHTML={{ __html: cssReset }} />
         </Head>
         <body>
           <Main />
