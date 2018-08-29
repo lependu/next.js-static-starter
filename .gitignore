@@ -56,3 +56,6 @@ __tests__/__snapshots__
 
 # Webpack bundle analyzer report
 analyzer
+
+# npm package-lock.json
+package-lock.json
