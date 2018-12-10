@@ -11,8 +11,8 @@
     "build": "next build",
     "dev": "next dev",
     "export": "next export",
-    "lint": "standard --fix",
-    "test": "standard && NODE_ENV=test jest"
+    "lint": "standard --fix --parser babel-eslint",
+    "test": "standard --parser babel-eslint && NODE_ENV=test jest"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://github.com/lependu/next.js-static-starter#readme",
   "devDependencies": {
+    "babel-eslint": "^10.0.1",
     "babel-jest": "^23.4.2",
     "babel-plugin-module-resolver": "^3.1.1",
     "enzyme": "^3.6.0",
@@ -55,5 +56,13 @@
     "ignore": [
       "webpack"
     ]
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "parserOptions": {
+      "ecmaFeatures": {
+        "jsx": true
+      }
+    }
   }
 }
