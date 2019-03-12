@@ -35,7 +35,7 @@
     "enzyme": "^3.8.0",
     "enzyme-adapter-react-16": "^1.7.1",
     "jest": "^23.5.0",
-    "jest-environment-jsdom-global": "^1.1.0",
+    "jest-environment-jsdom-global": "^1.2.0",
     "postcss-loader": "^3.0.0",
     "raw-loader": "^1.0.0",
     "react-markdown": "^4.0.4",
