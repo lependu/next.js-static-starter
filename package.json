@@ -42,7 +42,7 @@
     "react-test-renderer": "^16.8.1",
     "standard": "^12.0.0",
     "webpack": "^3.12.0",
-    "webpack-bundle-analyzer": "^3.0.0"
+    "webpack-bundle-analyzer": "^3.3.1"
   },
   "dependencies": {
     "babel-plugin-lodash": "^3.3.4",
