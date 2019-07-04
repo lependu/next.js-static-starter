@@ -12,7 +12,9 @@
     "dev": "next dev",
     "export": "next export",
     "lint": "standard --fix --parser babel-eslint",
-    "test": "standard --parser babel-eslint && NODE_ENV=test jest"
+    "test": "standard --parser babel-eslint && NODE_ENV=test jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "repository": {
     "type": "git",
@@ -50,7 +52,8 @@
     "next-compose-plugins": "^2.1.0",
     "react": "^16.8.1",
     "react-dom": "^16.8.1",
-    "recompose": "^0.30.0"
+    "recompose": "^0.30.0",
+    "snyk": "^1.189.0"
   },
   "greenkeeper": {
     "ignore": [
@@ -64,5 +67,6 @@
         "jsx": true
       }
     }
-  }
+  },
+  "snyk": true
 }
